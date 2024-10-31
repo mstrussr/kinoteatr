@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #621402;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.Header{
+    padding-bottom: 60px;
+    background: linear-gradient(180deg, rgba(98, 20, 2, 0.31) 0%, #621402 85.62%),
+    url("/img/bg.png") no-repeat center top / cover;
+}
+
+.navbar{
+    padding-top: 30px;
+    padding-bottom: 30px; 
+}
+
+.Nav{
+    position: relative;
+}
+
+.Container
+{
+    max-width: 1170px;
+    margin: auto;
+    width: 90%;
+}
+
+.Menu{
+    list-style-type: none;
+    margin: 0;
+    margin-left: 17px; 
+}
+
+.Menu-item{
+    margin-right: 25px;
+}
+
+.Menu-link{
+    text-decoration: none; 
+}
+
+.avatar{
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    margin-left: 11px;
+}
+.User{
+    margin-left: auto;
+}
